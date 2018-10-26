@@ -16,3 +16,5 @@ export {RequestHandler} from 'express';
 export {args} from './args';
 export {makeApp} from './make_app';
 export {ControlServer, getServerUrls, MainlineServer, PolyserveServer, ServerInfo, ServerOptions, startServer, startServers, VariantServer} from './start_server';
+export {babelCompile} from './compile-middleware';
+export {injectCustomElementsEs5Adapter} from './custom-elements-es5-adapter-middleware';
